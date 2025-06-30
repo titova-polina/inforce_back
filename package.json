@@ -1,0 +1,33 @@
+{
+  "name": "inclean_back",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "eslint": "^9.30.0",
+    "express": "^5.1.0",
+    "express-static-gzip": "^3.0.0",
+    "mongoose": "^8.16.1",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "insertPragma": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false
+  }
+}
